@@ -1,4 +1,14 @@
 Seashades::Application.routes.draw do
+  root :to => 'base_pages#home'
+
+  #get "base_pages/home"
+
+  get "base_pages/products"
+
+  get "base_pages/about"
+
+  get "base_pages/contact"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
