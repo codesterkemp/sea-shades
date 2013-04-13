@@ -1,3 +1,97 @@
 // Place all the styles related to the BasePages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+html, body {
+	height: 100%;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+	background: teal ;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+	color: #ffffff;
+}
+
+a {
+	color: #0000FF;
+}
+
+/** HEADER */
+
+#header {
+	overflow: hidden;
+	width: 900px;
+	height: 150px;
+	padding: 0px 50px;
+	background: url(images/gradient-bg.png) no-repeat center top;
+}
+
+/** LOGO */
+
+#logo {
+	float: left;
+	width: 300px;
+	height: 150px;
+}
+
+#logo h1, #logo p {
+	margin: 0px;
+	line-height: normal;
+}
+
+#logo h1 a {
+	display: block;
+	line-height: 150px;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-family: 'Archivo Narrow', sans-serif;
+	font-size: 1.3em;
+	color: #FFFFFF;
+}
+
+/** MENU */
+
+#menu {
+	float: right;
+	width: 600px;
+	height: 99px;
+}
+
+#menu ul {
+	float: right;
+	margin: 0px;
+	padding: 60px 0px 0px 0px;
+	list-style: none;
+	line-height: normal;
+}
+
+#menu li {
+	float: left;
+	margin-left: 2em;
+}
+
+#menu a {
+	display: block;
+	padding: 10px 15px;
+	letter-spacing: 2px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: 'Archivo Narrow', sans-serif;
+	font-size: 1.10em;
+	font-weight: 600;
+	color: #B6B6B6;
+}
+
+#menu .active a
+{
+	background: #0091E6;
+	border-radius: 5px;
+	color: #FFFFFF;
+}
+
+#menu a:hover {
+	text-decoration: underline;
+}
